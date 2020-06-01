@@ -13,9 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: bahmutov/npm-install@v1
-      with:
-        - working-directory: frontend
+    - name: npm install
+      run: npm ci
+      working-directory: frontend
     - name: react-scripts test
       run: npm test
       working-directory: frontend
