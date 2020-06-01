@@ -1,5 +1,4 @@
-import os
-import beerbowling.settings.base
+from beerbowling.settings.base import *
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'x$y%kf7=26xc0inkgomaz94pbke-(i=vh8yw65h5_@$80j132q'

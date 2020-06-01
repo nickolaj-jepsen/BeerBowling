@@ -1,5 +1,4 @@
-import os
-import beerbowling.settings.base
+from beerbowling.settings.base import *
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = False
