@@ -1,0 +1,10 @@
+{
+  "extends": "@snowpack/app-scripts-react",
+  "scripts": {
+    "build:css": "postcss"
+  },
+  "plugins": ["@snowpack/plugin-react-refresh"],
+  "proxy": {
+    "/api": "http://localhost:8000/api"
+  }
+}
