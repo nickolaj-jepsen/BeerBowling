@@ -28,6 +28,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'beerbowling.games',
+    'beerbowling.players',
 ]
 
 REST_FRAMEWORK = {
