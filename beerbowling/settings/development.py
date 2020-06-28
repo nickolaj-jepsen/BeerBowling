@@ -1,7 +1,7 @@
 from beerbowling.settings.base import *
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'x$y%kf7=26xc0inkgomaz94pbke-(i=vh8yw65h5_@$80j132q'
+SECRET_KEY = "x$y%kf7=26xc0inkgomaz94pbke-(i=vh8yw65h5_@$80j132q"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -13,8 +13,8 @@ DEBUG = True
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, '../db.sqlite3'),
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": os.path.join(BASE_DIR, "../db.sqlite3"),
     }
 }
